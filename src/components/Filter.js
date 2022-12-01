@@ -1,5 +1,5 @@
 import React from "react";
-import { HiChevronDown } from "react-icons/hi"
+import { HiChevronDown } from "react-icons/hi";
 
 const Filter = (props) => {
   return (

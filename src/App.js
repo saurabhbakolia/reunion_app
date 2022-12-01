@@ -37,12 +37,6 @@ function App() {
         <div className=" ">
           <div className="grid xl:grid-cols-3 lg:grid-row-3 md:grid-cols-2 lg:gap-8 md:gap-6 sm:gap-4">
             <Card />
-            <Card />
-            <Card />
-            <Card />
-            <Card />
-            <Card />
-            <Card />
           </div>
         </div>
       </main>
