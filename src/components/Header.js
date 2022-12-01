@@ -28,7 +28,7 @@ const Header = () => {
                         <li><HiChevronDown/></li>
                     </ul>
                 </div>
-                <div className='md:w-[26%] lg:w-[24%] xl:w-[18%] 2xl:w-[10%] flex items-center justify-around'>
+                <div className='md:w-[26%] lg:w-[24%] xl:w-[18%] 2xl:w-[14%] flex items-center justify-around'>
                     <ul className='mr-2 lg:mr-2 px-5 py-2 border-2 border-gray-300 rounded-md cursor-pointer'>
                         <li className='text-purple-600 font-bold'>Login</li>
                     </ul>

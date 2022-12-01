@@ -34,8 +34,8 @@ function App() {
 
         {/* main-content */}
 
-        <div className="lg:col-span-3 lg:row-span-3 lg:row-start-1 lg:col-start-2 ">
-          <div className="grid lg:grid-cols-3 lg:grid-row-3 md:grid-cols-2 lg:gap-8 md:gap-6 sm:gap-4">
+        <div className=" ">
+          <div className="grid xl:grid-cols-3 lg:grid-row-3 md:grid-cols-2 lg:gap-8 md:gap-6 sm:gap-4">
             <Card />
             <Card />
             <Card />
