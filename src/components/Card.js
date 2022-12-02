@@ -19,8 +19,8 @@ const Card = () => {
   return items.map((elem) => {
     const { id, image, name, location, price, beds, bathrooms, area } = elem;
     return (
-      <div>
-        <article className="flex-col justify-center rounded-lg shadow-md">
+      <div className="">
+        <article className="flex-col justify-center rounded-lg shadow-md max-w-xl">
           <div className="rounded-lg">
             <img src={image} alt="" className="rounded-lg h-72 w-full" />
           </div>
