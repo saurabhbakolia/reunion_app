@@ -2,8 +2,7 @@ import React, { useState } from "react";
 import { FiHeart } from "react-icons/fi";
 import { MdBed } from "react-icons/md";
 import { BiBath, BiArea } from "react-icons/bi";
-import House1 from "../assets/house1.jpg";
-import HouseDetails from "./RealState/HouseDetails";
+import HouseDetails from "./Data/HouseDetails";
 
 const Card = () => {
   const [items, setItems] = useState(HouseDetails);
@@ -19,10 +18,10 @@ const Card = () => {
   return items.map((elem) => {
     const { id, image, name, location, price, beds, bathrooms, area } = elem;
     return (
-      <div className="">
+      <div className="" key={id}>
         <article className="flex-col justify-center rounded-lg shadow-md max-w-xl">
           <div className="rounded-lg">
-            <img src={image} alt="" className="rounded-lg h-72 w-full" />
+            <img src={process.env.PUBLIC_URL + image} alt="" className="rounded-lg h-72 w-full" />
           </div>
           <div className="flex-col justify-center px-4 py-2 space-y-3">
             <div className="flex-col justify-center space-y-1">
